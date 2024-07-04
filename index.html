@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <form action="">
+
+        <legend>
+            <center>
+<u>
+
+    <h1>Student Registration Form</h1>
+</u>
+            </center>
+        </legend>
+        <table>
+            <tr>
+                <th><label for="1st name">First Name:</label></th>
+                <td>
+                    <input type="text" name="First Name" id="1st name" size="20" maxlength="20" required>
+                    <small>(Max 20 characters a-z and A-Z)</small>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="2nd name">Last Name:</label></th>
+                <td>
+                    <input type="text" name="Last Name" id="2nd name" size="20" maxlength="20">
+                    <small>(Max 20 characters a-z and A-Z)</small>
+                    
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="">Date of Birth:</label></th>
+                    <td>
+                        <select name="dob_day">
+                            <option value="" disabled selected>Day:</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select name="dob_month">
+                            <option value="" disabled selected>Month:</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                        <select name="dob_year">
+                            <option value="" disabled selected>Year:</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                        </select>
+                    </td>
+            </tr>
+            <tr>
+                <th><label for="email id">Email ID:</label></th>
+                <td>
+                    <input type="email" name="email" id="email id">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="tel">Phone Number:</label></th>
+                <td>
+                    <input type="tel" name="tel" id="tel" minlength="11" maxlength="11">
+                    <small>(11 digit Number)</small>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="">Gender:</label></th>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    
+                </td>
+            </tr>
+            <tr>
+                <th><label for="address">Address:</label></th>
+                <td>
+                    <textarea name="" cols="50" rows="5" id=""></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="city">City:</label></th>
+                <td>
+                    <input type="text" name="city" id="city" size="20" maxlength="20">
+                    <small>(Max 20 characters a-z and A-Z)</small>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="pin">PIN Code:</label></th>
+                <td>
+                    <input type="number" id="pin" maxlength="6" name="pin" required pattern="digit">
+                    <small>(6 digit number)</small>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="pin">STATE:</label></th>
+                <td>
+                    <input type="text"  maxlength="30" name="pin" required pattern="digit">
+                    <small>(Max 30 characters a-z and A-Zr)</small>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="country">Country:</label></th>
+                <td>
+                    <input type="text" name="Country" id="country" size="20">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="hobby">Hobby:</label></th>
+                <td>
+                    <input type="checkbox" name="hobby" value="cricket"> Drawing
+                    <input type="checkbox" name="hobby" value="football"> Singing
+                    <input type="checkbox" name="hobby" value="basketball"> Dancing
+                    <input type="checkbox" name="hobby" value="badminton"> Sketch
+                    <!-- <input type="checkbox" name="hobby" value="hockey"> Hockey -->
+                    <!-- <input type="checkbox" name="hobby" value="swimming"> Swimming -->
+                    <!-- <input type="checkbox" name="hobby" value="tennis"> Tennis -->
+                    <!-- <input type="checkbox" name="hobby" value="volleyball"> Volleyball -->
+                    <!-- <input type="checkbox" name="hobby" value="Others">Others: <input type="text"> -->
+
+                </td>
+            </tr>
+            <tr>
+                
+                
+             <td></td>
+                    <td>
+                        Others 
+                        <input type="checkbox" name="hobby" value="Otherst">
+
+                       <input type="text" name="" id="">
+                    </td>
+                
+            </tr>
+            <table>
+                <tr>
+                    <th><label for="">Qualification:</label></th>
+                    <td>S.No</td>
+                    <td>Examination</td>
+                    
+                    <td>Board</td>
+                    <td>Percentage</td>
+                    <td>Year of Passing</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>2 </td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                </tr>
+            </table>
+            <tr>
+                <th><label for="Courses"><b>Courses Applied For:</b></label></th>
+                <td><input type="radio" name="courses" value="BCA" id="bca">BCA</td>
+                <td><input type="radio" name="courses" value="B.Com" id="bcom">B.Com</td>
+                <td><input type="radio" name="courses" value="B.Sc" id="bsc">B.Sc</td>
+                <td><input type="radio" name="courses" value="B.A" id="ba">B.A</td>
+            </tr>
+            <br><br>
+            <center>
+                <tr>
+                    <td>
+                        <input type="button" name="submit" value="Submit">
+                    </td>
+                    <td>
+                        <input type="reset" name="reset" value="Reset">
+                    </td>
+                </tr>
+            </center>
+        </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
